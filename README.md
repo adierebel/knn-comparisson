@@ -75,9 +75,13 @@ To run the program, please following this steps:
 	  data = datasets.load_thyroid()
 	  print data
 		```
-6. Open command prompt/terminal, navigate to this repository, then run
+6. Open `main.py` 
+   set to 1 in `selected_datasets` wich dataset you want to use
+   set 1 on `classifier` wich claasifier algorithms you want to compare
+   set `k_values`, can be single or multiple value
+7. Open command prompt/terminal, navigate to this repository, then run
 `python main.py`
-7. Output program will be write on `logs/experiment_log.txt`. 
+8. Output program will be write on `logs/experiment_log.txt`. 
 
 ***Fell free to ask me at tofa.zakie@gmail.com*** 
 	

@@ -76,8 +76,8 @@ To run the program, please following this steps:
 	  print data
 		```
 6. Open `main.py` 
-   set to 1 in `selected_datasets` wich dataset you want to use
-   set 1 on `classifier` wich claasifier algorithms you want to compare
+   set to 1 in `selected_datasets` which dataset you want to use
+   set 1 on `classifier` which claasifier algorithms you want to compare
    set `k_values`, can be single or multiple value
 7. Open command prompt/terminal, navigate to this repository, then run
 `python main.py`

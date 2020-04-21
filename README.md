@@ -65,11 +65,11 @@ To run the program, please following this steps:
 	- `thyroid.csv` is a dataset file with first row content is
 	  215 | 5 | normal | hyper | hypo means 215 data, 5 attributes, class[0] = normal, class[1] = hyper, class[2] = hypo
 	- You may add your own dataset by following this steps:
-	  - save your dataset in .csv file then put in `../data`
-	  - create description file in `.srt` then put in `../descr`
-	  - add command to load new dataset in `__init__.py`
-	  - add command to load new dataset in `base.py`
-	  - to check it's work or not, you can run:
+	  1. save your dataset in .csv file then put in `../data`
+	  2. create description file in `.srt` then put in `../descr`
+	  3. add command to load new dataset in `__init__.py`
+	  4. add command to load new dataset in `base.py`
+	  5. to check it's work or not, you can run:
 	  ```
 	  from sklearn import datasets
 	  data = datasets.load_thyroid()
